@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_menu_card"
+    android:padding="12dp">
+
+    <!-- Rounded Photo Card Container -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_order_photo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:cardBackgroundColor="@color/photo_placeholder_bg"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_order_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/foto"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/menu_kopi_susu_gula_aren" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/layout_order_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/card_order_photo"
+        app:layout_constraintEnd_toStartOf="@id/layout_order_qty"
+        app:layout_constraintStart_toEndOf="@id/card_order_photo"
+        app:layout_constraintTop_toTopOf="@id/card_order_photo">
+
+        <TextView
+            android:id="@+id/tv_order_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Kopi Susu Gula Aren" />
+
+        <TextView
+            android:id="@+id/tv_order_unit_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/grey_subtitle"
+            android:textSize="13sp"
+            tools:text="2 x Rp 22.000" />
+
+        <TextView
+            android:id="@+id/tv_order_subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Rp 44.000" />
+    </LinearLayout>
+
+    <!-- Quantity Modifier in Order Tab -->
+    <LinearLayout
+        android:id="@+id/layout_order_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_order_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#F0E5D8"
+            app:cornerRadius="15dp"
+            app:elevation="0dp"
+            app:strokeWidth="0dp" />
+
+        <TextView
+            android:id="@+id/tv_order_qty"
+            android:layout_width="26dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_order_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:padding="0dp"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="15dp"
+            app:elevation="0dp"
+            app:strokeWidth="0dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

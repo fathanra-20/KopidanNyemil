@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Kopi dan Nyemil</string>
+    <string name="start_now">Start now</string>
+    <string name="logo">Logo</string>
+    <string name="tagline">Get a taste of your wish</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_desc">Join as a member &amp; experience more fun from various meal at mesen_gube marketing app</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="patokan_detail">Patokan atau detail lengkap</string>
+    <string name="order_dan_kirim">Order dan kirim</string>
+    <string name="order_dan_kirim_total">Order dan kirim (%1$s)</string>
+    <string name="greeting_name">Halo, Nama</string>
+    <string name="greeting_format">Halo, %1$s</string>
+    <string name="minuman">Minuman</string>
+    <string name="makanan">Makanan</string>
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="profile">Profile</string>
+    <string name="profile_saya">Profile saya</string>
+    <string name="profile_setting">Profile setting</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="oke">Oke</string>
+    <string name="confirm_message">Terima kasih sudah memesan\ntunggu aja sebentar kurir kami\nsegera mengantarkan\npesananmu!</string>
+    <string name="foto">Foto</string>
+    <string name="pesanan_saya">Pesanan Saya</string>
+    <string name="keranjang_kosong_title">Keranjang Masih Kosong</string>
+    <string name="keranjang_kosong_desc">Yuk pilih menu kopi dan camilan favoritmu di tab Home!</string>
+    <string name="pilih_menu">Pilih Menu</string>
+    <string name="total_pembayaran">Total Pembayaran</string>
+    <string name="lanjut_ke_alamat">Lanjut ke Alamat Pengiriman</string>
+    <string name="simpan_profil">Simpan Profil</string>
+    <string name="logout">Keluar / Logout</string>
+    <string name="total_item">Total Item</string>
+    <string name="status_keanggotaan">Status Keanggotaan</string>
+    <string name="member_spesial">🐾 Member Spesial Kopi dan Nyemil</string>
+    <string name="item_count_format">%1$d item</string>
+    <string name="order_unit_format">%1$d x %2$s</string>
+</resources>

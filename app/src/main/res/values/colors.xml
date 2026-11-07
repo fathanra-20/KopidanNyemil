@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#121212</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Base Screen Warm Off-White Background (#FAF7F4 / #F8F5F2) -->
+    <color name="bg_app">#FAF7F4</color>
+
+    <!-- Glow Colors for Radial Blur Background -->
+    <color name="glow_top_rose">#99E4929E</color>
+    <color name="glow_top_rose_mid">#40E4929E</color>
+    <color name="glow_bottom_peach">#B3FFB092</color>
+    <color name="glow_bottom_peach_mid">#4DFFB092</color>
+
+    <!-- UI neutrals -->
+    <color name="grey_stroke">#CCCCCC</color>
+    <color name="grey_hint">#8E8E93</color>
+    <color name="grey_subtitle">#757575</color>
+    <color name="grey_nav_inactive">#8E8E93</color>
+
+    <!-- Menu & Card styling (exact match to wireframe) -->
+    <color name="card_bg">#FFF8F0</color>
+    <color name="card_stroke">#F3E8DB</color>
+    <color name="photo_placeholder_bg">#F6CF9E</color>
+
+    <!-- Confirm Screen Ok Badge -->
+    <color name="ok_green_bg">#A1EBC3</color>
+    <color name="ok_green_stroke">#6CD99D</color>
+    <color name="ok_green_text">#1D683A</color>
+</resources>
